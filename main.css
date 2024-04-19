@@ -1,0 +1,150 @@
+/*Reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Fontes*/
+header,
+section h3,
+h2,
+button{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bolder;
+}
+
+body,
+input,
+textarea{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 35px;
+}
+
+button{
+    font-size: 25px;
+}
+
+header{
+    padding: 20px;;
+    color: rgb(247, 247, 247);
+    background-color: rgb(197, 15, 15);
+    margin-bottom: 20px;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a{
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .titulo{
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.fotos-principais {
+    height: 350px;
+    width: 600px;
+    margin-right: 16px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section h3 {
+    margin-bottom: 12px;
+}
+
+section{
+    margin-bottom: 40px;
+}
+section p{
+    margin-bottom: 6px;
+}
+
+.plataformas-img {
+    height: 35px;
+    
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: rgb(197, 15, 15);
+    color: rgb(247, 247, 247);
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(201, 77, 77);
+}
+
+input:focus,
+textarea:focus {
+    outline-color: rgb(197, 15, 15);
+}
+.social-link li img{
+    height: 30px;
+}
+
+.social-link li{
+    display: inline;
+    text-decoration: none;
+}
+
+.social-link a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: rgb(197, 15, 15);
+    color: rgb(247, 247, 247);
+    padding: 12px 0;
+}
